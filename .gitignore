@@ -199,6 +199,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+.idea/vcs.xml
 .dmypy.json
 dmypy.json
 
