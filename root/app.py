@@ -26,4 +26,4 @@ def buscar_Producto_en_wallapop(producto):
     return Response(lista_productos_serializada)
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=5151)
+    app.run()
