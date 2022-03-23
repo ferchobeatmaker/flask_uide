@@ -1,9 +1,19 @@
 import json
 import requests
+import sys
 from flask import Flask, Response
 from productos import Producto
 
 app = Flask(__name__)
+
+
+@app.route("/")
+def hello_word():
+    a="Maestría en Ciberseguridad-"
+    b="UIDE"
+    c = "-----Después del URL poner un slash y el criterio de búsqueda, ejemplo: AUTO"
+    d="-----https://uideflask.herokuapp.com/auto"
+    return (a+b+c+d)
 
 @app.route("/<producto>")
 def buscar_Producto_en_wallapop(producto):
