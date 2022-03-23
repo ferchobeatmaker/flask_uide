@@ -1,6 +1,5 @@
 import json
 import requests
-import sys
 from flask import Flask, Response
 from productos import Producto
 
