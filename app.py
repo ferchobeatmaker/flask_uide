@@ -8,12 +8,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_word():
-    a="Master en Ciberseguridad-"
+    a="Maestría en Ciberseguridad-"
     b="UIDE"
-    e= " JUAN FERNANDO GUACHAMIN "
     c = "-----Después del URL poner un slash y el criterio de búsqueda, ejemplo: AUTO"
     d="-----https://uideflask.herokuapp.com/auto"
-    return (a+b+e+c+d)
+    return (a+b+c+d)
 
 @app.route("/<producto>")
 def buscar_Producto_en_wallapop(producto):
