@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_word():
-    a="Maestría en Ciberseguridad-"
+    a="Master en Ciberseguridad-"
     b="UIDE"
     e= " JUAN FERNANDO GUACHAMIN "
     c = "-----Después del URL poner un slash y el criterio de búsqueda, ejemplo: AUTO"
