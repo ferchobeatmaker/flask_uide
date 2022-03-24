@@ -11,7 +11,7 @@ def hello_word():
     a="Master en Ciberseguridad-"
     b="UIDE"
     e= " JUAN FERNANDO GUACHAMIN "
-    c = "-----Después del URL poner un slash y el criterio de búsqueda, ejemplo: AUTO"
+    c = "-----Después del URL poner un slash y el criterio de búsqueda, ejemplo: PS4"
     d="-----https://uideflask.herokuapp.com/auto"
     return (a+b+e+c+d)
 
