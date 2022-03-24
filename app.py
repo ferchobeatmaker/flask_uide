@@ -12,7 +12,7 @@ def hello_word():
     b="UIDE"
     e= " JUAN FERNANDO GUACHAMIN "
     c = "-----Después del URL poner un slash y el criterio de búsqueda, ejemplo: PS4"
-    d="-----https://uideflask.herokuapp.com/auto"
+    d="-----https://uideflask.herokuapp.com/PS4"
     return (a+b+e+c+d)
 
 @app.route("/<producto>")
